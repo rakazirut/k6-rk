@@ -18,3 +18,5 @@ export let options = {
 export default function () {
     http.get('https://www.google.com/')
 }
+
+// total runtime 30s, internally ramp up happens as specified
